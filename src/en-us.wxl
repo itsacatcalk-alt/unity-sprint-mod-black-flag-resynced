@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wording for the standard WixUI pages we keep. The welcome, progress and finish pages are our own
+     dialogs in Product.wxs and carry their text there. -->
+<WixLocalization Culture="en-us" Codepage="1252" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="InstallDirDlgTitle">{\WixUI_Font_Title}Choose your game folder</String>
+  <String Id="InstallDirDlgDescription"></String>
+  <String Id="InstallDirDlgFolderLabel">Select the folder where Assassin's Creed Black Flag Resynced is installed.</String>
+  <String Id="VerifyReadyDlgInstallTitle">{\WixUI_Font_Title}Ready to install</String>
+  <String Id="VerifyReadyDlgInstallText">Click Install to apply the Unity Sprint Mod. This usually takes under a minute. Make sure the game is not running until the setup finishes.</String>
+  <String Id="MaintenanceWelcomeDlgTitle">{\WixUI_Font_Bigger}The Unity Sprint Mod is installed</String>
+  <String Id="MaintenanceWelcomeDlgDescription">You can apply the mod again, or remove it and restore your original game file.
+
+Make sure the game is not running, then click Next to continue or Cancel to exit.</String>
+  <String Id="VerifyReadyDlgRepairTitle">{\WixUI_Font_Title}Ready to repair</String>
+  <String Id="VerifyReadyDlgRepairText">Click Repair to apply the Unity Sprint Mod again. Make sure the game is not running until the setup finishes.</String>
+  <String Id="VerifyReadyDlgRemoveTitle">{\WixUI_Font_Title}Ready to remove</String>
+  <String Id="VerifyReadyDlgRemoveText">Click Remove to remove the Unity Sprint Mod and restore your original game file. Make sure the game is not running until the setup finishes.</String>
+  <String Id="UserExitTitle">{\WixUI_Font_Bigger}Setup was cancelled</String>
+  <String Id="UserExitDescription1">No changes were made to your game or your computer.</String>
+  <String Id="UserExitDescription2">You can run this setup again at any time.</String>
+  <String Id="FatalErrorTitle">{\WixUI_Font_Bigger}Setup could not finish</String>
+  <String Id="FatalErrorDescription1">Your game files were left exactly as they were.</String>
+  <String Id="FatalErrorDescription2">Make sure the game is not running, then run this setup again.</String>
+</WixLocalization>

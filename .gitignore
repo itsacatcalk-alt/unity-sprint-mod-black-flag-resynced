@@ -1,0 +1,13 @@
+# build output
+obj/
+out/
+
+# inputs are not redistributed here (see README): take them from the released MSI
+inputs/
+
+# never commit signing material
+*.pfx
+*.p12
+*.cer
+*.dpapi
+signing/
