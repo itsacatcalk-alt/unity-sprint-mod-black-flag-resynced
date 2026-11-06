@@ -8,7 +8,7 @@ The mod gives Edward the sprint animation from Assassin's Creed Unity. It is vis
 The release is a single Windows Installer package, `AC Black Flag Resynced - Unity Sprint Mod.msi`. It:
 
 1. Asks for the game folder and checks that it contains `ACBlackFlag.exe` and `DataPC_boot_patch_01.forge`, and that the game is not running.
-2. Installs three files to `C:\Program Files\Unity Sprint Mod\`: `SprintPatch.exe` (the patch engine), `oo2core_9_win64.dll` (the Oodle compression library) and `Unity_Sprint_680cms.Animation` (the new sprint).
+2. Installs three files to ` Example: C:\Program Files\Unity Sprint Mod\`: `SprintPatch.exe` (the patch engine), `oo2core_9_win64.dll` (the Oodle compression library) and `Unity_Sprint_680cms.Animation` (the new sprint).
 3. Runs `SprintPatch.exe install <game folder>`, which:
    - reads `DataPC_boot_patch_01.forge` and finds Edward's full-speed run animation inside it,
    - checks that this animation is the exact original (SHA-256), and stops without changing anything if it is not,
